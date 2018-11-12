@@ -1,0 +1,26 @@
+{
+    "name": "aesonus/cookies",
+    "description": "A non-static wrapper for static cookie methods",
+    "authors": [
+        {
+            "name": "Aesonus",
+            "email": "corylcomposinger@gmail.com"
+        }
+    ],
+    "require": {
+        "dflydev/fig-cookies": "^2.0",
+        "nesbot/carbon": "^1.33",
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aesonus\\Cookies\\": "src/",
+            "Aesonus\\Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "require-dev": {
+        "aesonus/test-lib": "v2.0",
+        "guzzlehttp/psr7": "1.4.2"
+    }
+}
